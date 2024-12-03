@@ -1,39 +1,24 @@
 ---
-const navigation = [
-  { name: 'Features', href: '#features' },
-  { name: 'Pricing', href: '#pricing' },
-  { name: 'About', href: '#about' },
-  { name: 'Contact', href: '#contact' },
-];
 ---
 
 <header class="fixed w-full bg-white/90 backdrop-blur-sm z-50">
   <nav class="mx-auto max-w-7xl px-6 lg:px-8" aria-label="Top">
     <div class="flex w-full items-center justify-between py-6">
       <div class="flex items-center">
-        <a href="/" class="text-2xl font-bold text-gray-900">
-          CarDealerPro
+        <a href="/" class="h-8">
+          <img 
+            src="https://www.carauktion.ch/img/logo@2x.png" 
+            alt="CarAuktion Logo" 
+            class="h-full w-auto"
+          />
         </a>
       </div>
-      <div class="ml-10 hidden space-x-8 lg:block">
-        {navigation.map((link) => (
-          <a href={link.href} class="text-sm font-medium text-gray-700 hover:text-primary">
-            {link.name}
-          </a>
-        ))}
-      </div>
-      <div class="ml-10 space-x-4">
-        <a
-          href="#"
-          class="inline-block rounded-lg px-4 py-2 text-sm font-medium text-gray-700 hover:text-primary"
-        >
-          Sign in
-        </a>
+      <div>
         <a
           href="#"
           class="inline-block rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:bg-primary/90"
         >
-          Get Started
+          Get Trade-In Widget
         </a>
       </div>
     </div>
