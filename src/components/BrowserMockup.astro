@@ -117,13 +117,17 @@
 </style>
 
 <script>
-  function startAnimation() {
+  function playAnimation() {
     const tradeInBtn = document.getElementById('tradeInBtn');
     const formWidget = document.getElementById('formWidget');
 
     if (!tradeInBtn || !formWidget) return;
 
-    // Start animation sequence after a delay
+    // Reset the state
+    tradeInBtn.classList.remove('clicked');
+    formWidget.classList.remove('show');
+
+    // Start animation sequence
     setTimeout(() => {
       // Simulate button click
       tradeInBtn.classList.add('clicked');
@@ -137,9 +141,22 @@
       setTimeout(() => {
         tradeInBtn.classList.remove('clicked');
       }, 800);
-    }, 2000);
+
+      // Hide form widget after 4 seconds (giving 1 second before next animation)
+      setTimeout(() => {
+        formWidget.classList.remove('show');
+      }, 4000);
+    }, 1000);
   }
 
-  // Start the animation sequence when the page loads
-  document.addEventListener('DOMContentLoaded', startAnimation);
+  function startAnimationLoop() {
+    // Play animation immediately
+    playAnimation();
+    
+    // Loop animation every 5 seconds
+    setInterval(playAnimation, 5000);
+  }
+
+  // Start the animation loop when the page loads
+  document.addEventListener('DOMContentLoaded', startAnimationLoop);
 </script>
