@@ -95,9 +95,7 @@ const steps = [
             <h3 class="text-lg font-semibold text-primary-text mb-2">
               {t('process.valuecheck.title')}
             </h3>
-            <p class="text-sm text-secondary-text leading-relaxed">
-              {t('process.valuecheck.description')}
-            </p>
+            <p class="text-sm text-secondary-text leading-relaxed" set:html={t('process.valuecheck.description')} />
           </div>
         </div>
       </div>

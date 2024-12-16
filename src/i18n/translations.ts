@@ -50,7 +50,7 @@ export const ui = {
 
       // ValueCheck App Explainer
       "process.valuecheck.title": "Was ist die ValueCheck App?",
-      "process.valuecheck.description": "Die ValueCheck App ist das zentrale Werkzeug für CARAUKTION-Händler zur Fahrzeugerfassung und Bestandsverwaltung. Sie ermöglicht eine professionelle Dokumentation von Fahrzeugen und deren nahtlose Integration in den CARAUKTION-Marktplatz.",
+      "process.valuecheck.description": "Die <a href='https://www.carauktion.ch/generalinfo/carauktion/valueCheck.html' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-primary/90'>ValueCheck</a> App ist das zentrale Tool für Händler auf CARAUKTION. Sie ermöglicht eine präzise Fahrzeugerfassung, Dokumentation und direkte Integration in den CARAUKTION-Marktplatz – effizient und zeitsparend.",
       
       // Contact
       "contact.title": "Bereit, Ihren Eintausch-Prozess zu transformieren?",
@@ -135,7 +135,7 @@ export const ui = {
 
       // ValueCheck App Explainer
       "process.valuecheck.title": "Qu'est-ce que l'App ValueCheck ?",
-      "process.valuecheck.description": "L'App ValueCheck est l'outil central des concessionnaires CARAUKTION pour la capture et la gestion des véhicules. Elle permet une documentation professionnelle des véhicules et leur intégration transparente dans la place de marché CARAUKTION.",
+      "process.valuecheck.description": "L'application <a href='https://www.carauktion.ch/generalinfo/carauktion/valueCheck.html' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-primary/90'>ValueCheck</a> est l'outil central pour les concessionnaires CARAUKTION. Elle permet une saisie précise des véhicules, une documentation et une intégration directe sur la place de marché CARAUKTION – efficace et économe en temps.",
       
       "contact.title": "Prêt à transformer votre processus de reprise ?",
       "contact.description": "Contactez-nous aujourd'hui et découvrez comment notre widget de reprise peut optimiser les opérations de votre concession.",
@@ -218,7 +218,7 @@ export const ui = {
 
       // ValueCheck App Explainer
       "process.valuecheck.title": "Cos'è l'App ValueCheck?",
-      "process.valuecheck.description": "L'App ValueCheck è lo strumento centrale per i concessionari CARAUKTION per la cattura e la gestione dei veicoli. Permette una documentazione professionale dei veicoli e la loro perfetta integrazione nel marketplace CARAUKTION.",
+      "process.valuecheck.description": "L'App <a href='https://www.carauktion.ch/generalinfo/carauktion/valueCheck.html' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-primary/90'>ValueCheck</a> è lo strumento centrale per i concessionari CARAUKTION per la cattura e la gestione dei veicoli. Permette una documentazione professionale dei veicoli e la loro perfetta integrazione nel marketplace CARAUKTION.",
       
       "contact.title": "Pronto a trasformare il tuo processo di permuta?",
       "contact.description": "Contattaci oggi e scopri come il nostro widget di permuta può ottimizzare le operazioni della tua concessionaria.",
@@ -301,7 +301,7 @@ export const ui = {
 
       // ValueCheck App Explainer
       "process.valuecheck.title": "What is the ValueCheck App?",
-      "process.valuecheck.description": "The ValueCheck App is the central tool for CARAUKTION dealers to capture and manage their vehicle inventory. It enables professional vehicle documentation and seamless integration into the CARAUKTION marketplace.",
+      "process.valuecheck.description": "The <a href='https://www.carauktion.ch/generalinfo/carauktion/valueCheck.html' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-primary/90'>ValueCheck</a> App is the central tool for CARAUKTION dealers to capture and manage their vehicle inventory. It enables professional vehicle documentation and seamless integration into the CARAUKTION marketplace.",
       
       "contact.title": "Ready to Transform Your Trade-In Process?",
       "contact.description": "Get in touch with us today and discover how our trade-in widget can streamline your dealership's operations and boost customer engagement.",
