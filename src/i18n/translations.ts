@@ -50,7 +50,7 @@ export const ui = {
 
       // ValueCheck App Explainer
       "process.valuecheck.title": "*) Was ist die ValueCheck App?",
-      "process.valuecheck.description": "Die <a href='https://www.carauktion.ch/generalinfo/carauktion/valueCheck.html' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-primary/90'>ValueCheck</a> App ist das zentrale Tool für Händler auf CARAUKTION. Sie ermöglicht eine präzise Fahrzeugerfassung, Dokumentation und direkte Integration in den CARAUKTION-Marktplatz – effizient und zeitsparend.",
+      "process.valuecheck.description": "Die <a href='https://www.carauktion.ch/generalinfo/carauktion/valueCheck.html' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-primary/90'>ValueCheck App</a> ist das zentrale Tool für Händler auf CARAUKTION. Sie ermöglicht eine präzise Fahrzeugerfassung, Dokumentation und direkte Integration in den CARAUKTION-Marktplatz – effizient und zeitsparend.",
       
       // Contact
       "contact.title": "Bereit, Ihren Fahrzeug-Ankauf zu digitalisieren?",
