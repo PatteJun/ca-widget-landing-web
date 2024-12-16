@@ -28,6 +28,13 @@ const t = useTranslations(lang);
   <!-- Browser Content -->
   <div class="bg-white rounded-b-lg shadow-2xl p-6">
     <div class="relative">
+      <!-- Cursor -->
+      <div id="cursor" class="absolute w-6 h-6 pointer-events-none opacity-0 z-50 text-black">
+        <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.5056 10.7754C21.1225 10.5355 21.431 10.4155 21.5176 10.2459C21.5926 10.099 21.5903 9.92446 21.5115 9.77954C21.4205 9.61226 21.109 9.50044 20.486 9.2768L4.59629 3.5728C4.0866 3.38983 3.83175 3.29835 3.66514 3.35605C3.52029 3.40621 3.40645 3.52004 3.35629 3.6649C3.29859 3.8315 3.39008 4.08635 3.57304 4.59605L9.277 20.4858C9.50064 21.1088 9.61246 21.4203 9.77973 21.5113C9.92465 21.5901 10.0991 21.5924 10.2461 21.5174C10.4157 21.4308 10.5356 21.1223 10.7756 20.5054L13.3724 13.8278C13.4194 13.707 13.4429 13.6466 13.4792 13.5957C13.5114 13.5506 13.5508 13.5112 13.5959 13.479C13.6468 13.4427 13.7072 13.4192 13.828 13.3722L20.5056 10.7754Z" fill="white" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
       <!-- Example Car Dealer Website Content -->
       <nav class="flex justify-between items-center mb-8">
         <div class="w-32 h-6 bg-gray-200 rounded"></div>
@@ -59,11 +66,15 @@ const t = useTranslations(lang);
             <div class="space-y-4">
               <h3 class="text-lg font-semibold text-primary-text">{t('browser.mockup.form.title')}</h3>
               <div class="space-y-2">
-                <div class="w-32 h-4 bg-gray-200 rounded"></div>
+                <label class="block text-sm font-medium text-gray-700">
+                  {t('browser.mockup.form.year')}
+                </label>
                 <div class="h-10 bg-gray-50 rounded-lg w-full border border-gray-200"></div>
               </div>
               <div class="space-y-2">
-                <div class="w-16 h-4 bg-gray-200 rounded"></div>
+                <label class="block text-sm font-medium text-gray-700">
+                  {t('browser.mockup.form.mileage')}
+                </label>
                 <div class="h-10 bg-gray-50 rounded-lg w-full border border-gray-200"></div>
               </div>
               <button class="w-full px-4 py-3 bg-primary text-white rounded-lg hover:bg-primary/90">
@@ -95,6 +106,19 @@ const t = useTranslations(lang);
     transform: translateX(0) !important;
   }
 
+  #cursor {
+    transition: all 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: 15% 15%;
+  }
+
+  #cursor.show {
+    opacity: 1 !important;
+  }
+
+  #cursor.clicking {
+    transform: scale(0.9);
+  }
+
   @keyframes pulse {
     0% {
       box-shadow: 0 0 0 0 rgba(216, 24, 37, 0.4);
@@ -122,43 +146,78 @@ const t = useTranslations(lang);
 
 <script>
   function playAnimation() {
+    const cursor = document.getElementById('cursor');
     const tradeInBtn = document.getElementById('tradeInBtn');
     const formWidget = document.getElementById('formWidget');
 
-    if (!tradeInBtn || !formWidget) return;
+    if (!cursor || !tradeInBtn || !formWidget) return;
 
-    // Reset the state
+    // Get button position
+    const btnRect = tradeInBtn.getBoundingClientRect();
+    const browserContent = tradeInBtn.closest('.bg-white');
+    if (!browserContent) return;
+    const browserRect = browserContent.getBoundingClientRect();
+
+    // Calculate relative positions
+    const btnX = btnRect.left - browserRect.left + (btnRect.width / 2) - 12;
+    const btnY = btnRect.top - browserRect.top + (btnRect.height / 2) - 12;
+
+    // Reset state
     tradeInBtn.classList.remove('clicked');
     formWidget.classList.remove('show');
+    cursor.style.transform = '';
+    cursor.classList.remove('clicking');
 
-    // Start animation sequence
+    // Initial cursor position (top-left corner)
+    cursor.style.left = '50px';
+    cursor.style.top = '50px';
+    cursor.classList.add('show');
+
+    // Animation sequence
     setTimeout(() => {
-      // Simulate button click
-      tradeInBtn.classList.add('clicked');
-      
-      // Show form widget
-      setTimeout(() => {
-        formWidget.classList.add('show');
-      }, 400);
-      
-      // Remove click animation
-      setTimeout(() => {
-        tradeInBtn.classList.remove('clicked');
-      }, 800);
+      // Move cursor to button
+      cursor.style.left = `${btnX}px`;
+      cursor.style.top = `${btnY}px`;
 
-      // Hide form widget after 4 seconds (giving 1 second before next animation)
+      // Click animation
       setTimeout(() => {
-        formWidget.classList.remove('show');
-      }, 4000);
-    }, 1000);
+        cursor.classList.add('clicking');
+        tradeInBtn.classList.add('clicked');
+        
+        // Show form widget
+        setTimeout(() => {
+          formWidget.classList.add('show');
+          
+          // Move cursor to form
+          const formRect = formWidget.getBoundingClientRect();
+          const formX = formRect.left - browserRect.left + (formRect.width / 2) - 12;
+          const formY = formRect.top - browserRect.top + 100 - 12; // Move to the middle of the form
+          
+          cursor.style.left = `${formX}px`;
+          cursor.style.top = `${formY}px`;
+          
+          // Remove click effect
+          setTimeout(() => {
+            cursor.classList.remove('clicking');
+            tradeInBtn.classList.remove('clicked');
+          }, 800);
+
+          // Hide cursor and reset form after delay
+          setTimeout(() => {
+            cursor.classList.remove('show');
+            formWidget.classList.remove('show');
+          }, 5000);
+        }, 600);
+      }, 2000);
+    }, 1500);
   }
 
   function startAnimationLoop() {
     // Play animation immediately
     playAnimation();
     
-    // Loop animation every 5 seconds
-    setInterval(playAnimation, 5000);
+    // Loop animation every 10 seconds
+    setInterval(playAnimation, 10000);
   }
 
   // Start the animation loop when the page loads
