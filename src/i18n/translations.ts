@@ -50,7 +50,7 @@ export const ui = {
 
       // ValueCheck App Explainer
       "process.valuecheck.title": "*) Was ist die ValueCheck App?",
-      "process.valuecheck.description": "Die (ValueCheck App( (https://www.carauktion.ch/generalinfo/carauktion/valueCheck.html) ist das zentrale Tool für CARAUKTION-Händler. Sie ermöglicht eine präzise Fahrzeugerfassung, Dokumentation und direkte Integration in den CARAUKTION-Marktplatz – effizient und zeitsparend.",
+      "process.valuecheck.description": "Die (ValueCheck App) (https://www.carauktion.ch/generalinfo/carauktion/valueCheck.html) ist das zentrale Tool für CARAUKTION-Händler. Sie ermöglicht eine präzise Fahrzeugerfassung, Dokumentation und direkte Integration in den CARAUKTION-Marktplatz – effizient und zeitsparend.",
       
       // Contact
       "contact.title": "Bereit, Ihren Fahrzeug-Ankauf zu digitalisieren?",
