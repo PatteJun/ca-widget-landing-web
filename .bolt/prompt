@@ -1,9 +1,12 @@
-This project is a landing page for a trade-in widget for car dealer websites.
+# Project Overview
+
+This project is a landing page for a trade-in widget for car dealer websites. It aims to streamline the trade-in process for car dealerships by providing an embedded widget solution.
 
 ## Tech Stack
-- Astro
-- Netlify Forms
-- Tailwind CSS
+
+- **Astro**: A modern static site generator for building fast websites.
+- **Netlify Forms**: Used for handling form submissions.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
 
 ## Project Structure
 
@@ -21,3 +24,24 @@ The project is organized as follows:
 - **Streamlined Process**: Automates the trade-in process and integrates with the ValueCheck App.
 - **Lead Generation**: Engages potential customers early in their car-buying journey.
 - **Inventory Growth**: Provides a new channel for acquiring quality used vehicles.
+
+## Multilingual Support
+
+The project supports multiple languages, including English, German, Italian, and French. Each language has its own set of pages and translations, ensuring a localized experience for users.
+
+## Thank You Page
+
+After form submissions, users are redirected to a thank you page that confirms receipt of their information and provides further contact details.
+
+## Commands
+
+All commands are run from the root of the project, from a terminal:
+
+- `npm install`: Installs dependencies.
+- `npm run dev`: Starts the local development server.
+- `npm run build`: Builds the production site.
+- `npm run preview`: Previews the build locally before deploying.
+
+## Learn More
+
+For more information, check out the [Astro documentation](https://docs.astro.build) or join the [Astro Discord server](https://astro.build/chat).
