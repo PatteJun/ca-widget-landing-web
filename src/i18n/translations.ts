@@ -47,6 +47,10 @@ export const ui = {
       
       "process.step6.title": "CARAUKTION Plattform",
       "process.step6.description": "Listen Sie erworbene Fahrzeuge optional direkt auf CARAUKTION für den Händler-zu-Händler-Verkauf.",
+
+      // ValueCheck App Explainer
+      "process.valuecheck.title": "Was ist die ValueCheck App?",
+      "process.valuecheck.description": "Die ValueCheck App ist das zentrale Werkzeug für CARAUKTION-Händler zur Fahrzeugerfassung und Bestandsverwaltung. Sie ermöglicht eine professionelle Dokumentation von Fahrzeugen und deren nahtlose Integration in den CARAUKTION-Marktplatz.",
       
       // Contact
       "contact.title": "Bereit, Ihren Eintausch-Prozess zu transformieren?",
@@ -128,6 +132,10 @@ export const ui = {
       
       "process.step6.title": "Plateforme CARAUKTION",
       "process.step6.description": "Listez optionnellement les véhicules acquis directement sur CARAUKTION pour la vente entre concessionnaires.",
+
+      // ValueCheck App Explainer
+      "process.valuecheck.title": "Qu'est-ce que l'App ValueCheck ?",
+      "process.valuecheck.description": "L'App ValueCheck est l'outil central des concessionnaires CARAUKTION pour la capture et la gestion des véhicules. Elle permet une documentation professionnelle des véhicules et leur intégration transparente dans la place de marché CARAUKTION.",
       
       "contact.title": "Prêt à transformer votre processus de reprise ?",
       "contact.description": "Contactez-nous aujourd'hui et découvrez comment notre widget de reprise peut optimiser les opérations de votre concession.",
@@ -207,6 +215,10 @@ export const ui = {
       
       "process.step6.title": "Piattaforma CARAUKTION",
       "process.step6.description": "Lista opzionalmente i veicoli acquisiti direttamente su CARAUKTION per la vendita tra concessionari.",
+
+      // ValueCheck App Explainer
+      "process.valuecheck.title": "Cos'è l'App ValueCheck?",
+      "process.valuecheck.description": "L'App ValueCheck è lo strumento centrale per i concessionari CARAUKTION per la cattura e la gestione dei veicoli. Permette una documentazione professionale dei veicoli e la loro perfetta integrazione nel marketplace CARAUKTION.",
       
       "contact.title": "Pronto a trasformare il tuo processo di permuta?",
       "contact.description": "Contattaci oggi e scopri come il nostro widget di permuta può ottimizzare le operazioni della tua concessionaria.",
@@ -286,6 +298,10 @@ export const ui = {
       
       "process.step6.title": "CARAUKTION Platform",
       "process.step6.description": "Optionally list acquired vehicles directly on CARAUKTION for dealer-to-dealer sales.",
+
+      // ValueCheck App Explainer
+      "process.valuecheck.title": "What is the ValueCheck App?",
+      "process.valuecheck.description": "The ValueCheck App is the central tool for CARAUKTION dealers to capture and manage their vehicle inventory. It enables professional vehicle documentation and seamless integration into the CARAUKTION marketplace.",
       
       "contact.title": "Ready to Transform Your Trade-In Process?",
       "contact.description": "Get in touch with us today and discover how our trade-in widget can streamline your dealership's operations and boost customer engagement.",
