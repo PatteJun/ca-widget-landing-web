@@ -1,7 +1,7 @@
 export const ui = {
   de: {
       // Navigation
-      "nav.getWidget": "Widget erhalten",
+      "nav.getWidget": "Widget anfordern",
       
       // Hero
       "hero.title": "Optimieren Sie Ihren Eintausch-Prozess",
