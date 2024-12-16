@@ -5,26 +5,26 @@ export const ui = {
       
       // Hero
       "hero.title": "Optimieren Sie Ihren Eintausch-Prozess",
-      "hero.description": "Steigern Sie die Lead-Generierung und vereinfachen Sie Eintausche mit unserem eingebetteten Widget. Nahtlose Integration in Ihr bestehendes Dealer-Management-System und sofortige Bewertung von Eintauschen für Ihre Kunden.",
-      "hero.cta.primary": "Widget erhalten",
+      "hero.description": "Steigern Sie die Lead-Generierung und vereinfachen Sie den Eintausch mit unserem Trade-In Widget. Nahtlose Integration in Ihr bestehendes Dealer-Management-System und sofortige Bewertung von Fahrzeugen für Ihre Kunden.",
+      "hero.cta.primary": "Widget anfordern",
       "hero.cta.secondary": "Mehr erfahren",
       
       // Features
       "features.title": "Leistungsstarke Funktionen für moderne Händler",
-      "features.description": "Transformieren Sie Ihren Eintausch-Prozess mit unserer umfassenden Lösung, die den Betrieb optimiert und das Geschäftswachstum fördert.",
+      "features.description": "Transformieren Sie Ihren Eintausch-Prozess mit unserer umfassenden Lösung, die den Betrieb optimiert und den Fahrzeugbestand erweitert.",
       
       // Features List
       "features.integration.title": "Nahtlose Integration",
       "features.integration.description": "Unser Widget passt sich perfekt an das Design Ihrer Website an und bietet ein natives Erlebnis, das die Identität und Benutzererfahrung Ihrer Marke bewahrt.",
       
       "features.process.title": "Optimierter Prozess",
-      "features.process.description": "Eintausch-Fahrzeuge werden automatisch in Ihre ValueCheck App-Datenbank eingetragen und können direkt auf der CARAUKTION-Plattform inseriert werden.",
+      "features.process.description": "Eintausch-Fahrzeuge werden automatisch in Ihre ValueCheck App eingetragen und können direkt auf der CARAUKTION-Plattform inseriert werden.",
       
       "features.leads.title": "Lead-Generierung",
       "features.leads.description": "Schaffen Sie neue Möglichkeiten, indem Sie potenzielle Kunden früh in ihrer Autokauf-Journey durch unkomplizierte Eintausch-Bewertungen ansprechen.",
       
       "features.inventory.title": "Bestandswachstum",
-      "features.inventory.description": "Erschließen Sie einen neuen Kanal für den Erwerb hochwertiger Gebrauchtwagen direkt über Ihre Website und erweitern Sie Ihre Bestandsoptionen.",
+      "features.inventory.description": "Erschliessen Sie einen neuen Kanal für den Erwerb hochwertiger Gebrauchtwagen direkt über Ihre Website und erweitern Sie Ihre Bestandsoptionen.",
 
       // Process Flow
       "process.title": "Optimierter Eintausch-Prozess",
@@ -33,14 +33,14 @@ export const ui = {
       "process.step1.title": "Widget-Integration",
       "process.step1.description": "Integrieren Sie unser Eintausch-Widget mit nur einer Zeile Code nahtlos in Ihre Händler-Website.",
       
-      "process.step2.title": "Kunden-Bewertung",
-      "process.step2.description": "Kunden können ihr Fahrzeug schnell über das Kennzeichen oder durch Auswahl von Marke und Modell bewerten.",
+      "process.step2.title": "Kunden-Eingabe",
+      "process.step2.description": "Kunden können ihr Fahrzeug schnell über das Kennzeichen oder durch Auswahl von Marke und Modell finden.",
       
       "process.step3.title": "Detaillierte Beurteilung",
       "process.step3.description": "Kunden erhalten einen E-Mail-Link zur Eingabe detaillierter Informationen und zum Hochladen der Fahrzeugdokumentation.",
       
       "process.step4.title": "ValueCheck Integration",
-      "process.step4.description": "Alle Fahrzeuginformationen werden automatisch in Ihre ValueCheck App zur Überprüfung übertragen.",
+      "process.step4.description": "Alle Fahrzeuginformationen werden automatisch in der ValueCheck App zur Überprüfung übertragen.",
       
       "process.step5.title": "Händler-Entscheidung",
       "process.step5.description": "Prüfen Sie die Details, kontaktieren Sie den Kunden und machen Sie ein wettbewerbsfähiges Angebot.",
@@ -60,11 +60,11 @@ export const ui = {
       "contact.form.phone": "Telefonnummer",
       "contact.form.phone.placeholder": "+41 (000) 000-0000",
       "contact.form.submit": "Informationen anfordern",
-      "contact.form.note": "Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+      "contact.form.note": "Die Anfrage ist unverbindlich und kostenlos.",
   
       // Thank You Page
       "thankyou.title": "Vielen Dank für Ihr Interesse!",
-      "thankyou.description": "Wir haben Ihre Informationen erhalten und werden Sie innerhalb der nächsten 24 Stunden kontaktieren, um eine persönliche Demonstration unseres Eintausch-Widgets zu vereinbaren.",
+      "thankyou.description": "Wir haben Ihre Informationen erhalten und werden Sie in Kürze kontaktieren, um eine persönliche Demonstration unseres Eintausch-Widgets zu vereinbaren.",
       "thankyou.back": "Zurück zur Startseite",
       "thankyou.contact": "Bei dringenden Fragen können Sie uns gerne unter",
       "thankyou.email": "info@carauktion.ch",
