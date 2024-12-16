@@ -102,3 +102,46 @@ const steps = [
     </div>
   </div>
 </section>
+
+<script>
+  function animateProcess() {
+    const dot = document.getElementById('processDot');
+    if (!dot) return;
+
+    const steps = document.querySelectorAll('.process-step');
+    const totalSteps = steps.length;
+    let currentStep = 0;
+
+    function moveToStep(stepIndex: number) {
+      const step = steps[stepIndex] as HTMLElement;
+      if (!step) return;
+
+      const stepRect = step.getBoundingClientRect();
+      const sectionRect = step.closest('section')?.getBoundingClientRect();
+      
+      if (!sectionRect) return;
+
+      const relativeLeft = stepRect.left - sectionRect.left + (stepRect.width / 2) - 8;
+      
+      dot.style.transition = 'left 2s cubic-bezier(0.4, 0, 0.2, 1)';
+      dot.style.left = `${relativeLeft}px`;
+
+      // Highlight current step
+      steps.forEach((s, i) => {
+        s.classList.toggle('active', i === stepIndex);
+      });
+    }
+
+    function nextStep() {
+      currentStep = (currentStep + 1) % totalSteps;
+      moveToStep(currentStep);
+    }
+
+    // Start animation
+    moveToStep(0);
+    setInterval(nextStep, 4000);
+  }
+
+  // Start the animation when the page loads
+  document.addEventListener('DOMContentLoaded', animateProcess);
+</script>
