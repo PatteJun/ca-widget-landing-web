@@ -1,9 +1,9 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/Navbar.astro';
-import { useTranslations } from '../i18n/ui';
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import { useTranslations } from '../../i18n/ui';
 
-const lang = 'de';
+const lang = 'en';
 const t = useTranslations(lang);
 ---
 
@@ -25,7 +25,7 @@ const t = useTranslations(lang);
             {t('thankyou.description')}
           </p>
           <a 
-            href="/" 
+            href="/en" 
             class="inline-block rounded-lg bg-primary px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-primary/90 transition-colors"
           >
             {t('thankyou.back')}

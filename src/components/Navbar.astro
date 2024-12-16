@@ -1,4 +1,10 @@
 ---
+import { getLangFromUrl } from '../i18n/ui';
+import { useTranslations } from '../i18n/ui';
+import LanguagePicker from './LanguagePicker.astro';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <header class="fixed w-full bg-white/90 backdrop-blur-sm z-50">
@@ -13,12 +19,13 @@
           />
         </a>
       </div>
-      <div>
+      <div class="flex items-center gap-6">
+        <LanguagePicker lang={lang} />
         <a
           href="#contact"
           class="inline-block rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:bg-primary/90"
         >
-          Get Trade-In Widget
+          {t('nav.getWidget')}
         </a>
       </div>
     </div>

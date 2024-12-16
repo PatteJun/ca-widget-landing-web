@@ -2,16 +2,18 @@
 interface Props {
   title: string;
   description?: string;
+  lang?: string;
 }
 
 const { 
   title,
-  description = "Streamline your car dealership's trade-in process with our embedded widget solution"
+  description = "Streamline your car dealership's trade-in process with our embedded widget solution",
+  lang = 'de'
 } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang={lang} class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
