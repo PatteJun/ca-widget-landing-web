@@ -46,7 +46,7 @@ export const ui = {
       "process.step5.description": "Prüfen Sie die Details, kontaktieren Sie den Kunden und unterbreiten Sie ein wettbewerbsfähiges Angebot – klar, transparent und zuverlässig.",
       
       "process.step6.title": "Vermarktung leicht gemacht",
-      "process.step6.description": "Erworbene Fahrzeuge können optional direkt auf der CARAUKTION-Plattform gelistet werden – für maximale Reichweite und Händler-zu-Händler-Verkauf..",
+      "process.step6.description": "Erworbene Fahrzeuge können optional direkt auf der CARAUKTION-Plattform gelistet werden – für maximale Reichweite und B2B-Verkauf.",
 
       // ValueCheck App Explainer
       "process.valuecheck.title": "*) Was ist die ValueCheck App?",
