@@ -241,7 +241,7 @@ export const ui = {
     "contact.form.email.placeholder": "nome@iltuogarage.ch",
     "contact.form.phone": "Numero di telefono",
     "contact.form.phone.placeholder": "+41 (000) 000 0000",
-    "contact.form.submit": "Richiedi informazioni",
+    "contact.form.submit": "Richiedi informazioni adesso",
     "contact.form.note": "La richiesta è gratuita e senza impegno.",
     
     // Thank You Page
