@@ -4,3 +4,20 @@ This project is a landing page for a trade-in widget for car dealer websites.
 - Astro
 - Netlify Forms
 - Tailwind CSS
+
+## Project Structure
+
+The project is organized as follows:
+
+- **public/**: Contains static assets like images and icons.
+- **src/**: The main source directory containing components, layouts, and pages.
+  - **components/**: Reusable UI components such as `Navbar`, `Hero`, and `FeatureCard`.
+  - **layouts/**: Layout components like `Layout.astro` that define the structure of pages.
+  - **pages/**: Contains the main pages of the site, such as `index.astro`.
+
+## Key Features
+
+- **Seamless Integration**: The widget integrates smoothly with existing dealer websites.
+- **Streamlined Process**: Automates the trade-in process and integrates with the ValueCheck App.
+- **Lead Generation**: Engages potential customers early in their car-buying journey.
+- **Inventory Growth**: Provides a new channel for acquiring quality used vehicles.
