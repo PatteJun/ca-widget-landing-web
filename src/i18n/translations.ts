@@ -27,30 +27,30 @@ export const ui = {
       "features.inventory.description": "Erweitern Sie Ihren Gebrauchtwagenbestand durch gezielte Ankäufe direkt über Ihre Webseite – effizient und kundenfreundlich.",
 
       // Process Flow
-      "process.title": "Optimierter Eintausch-Prozess",
-      "process.description": "Von der ersten Bewertung bis zum endgültigen Verkauf - unsere umfassende Lösung begleitet jeden Schritt des Eintausch-Prozesses.",
+      "process.title": "Ihr digitaler Eintausch-Prozess – Schritt für Schritt optimiert",
+      "process.description": "Von der Online-Bewertung bis zur erfolgreichen Vermarktung: Unser nahtloser Prozess macht den Fahrzeugankauf effizient, einfach und kundenfreundlich.",
       
-      "process.step1.title": "Widget-Integration",
-      "process.step1.description": "Integrieren Sie unser Eintausch-Widget mit nur einer Zeile Code nahtlos in Ihre Händler-Website.",
+      "process.step1.title": "Schnelle Integration in Ihre Webseite",
+      "process.step1.description": "Integrieren Sie unser Eintausch-Widget mit nur einer Zeile Code – nahtlos, unkompliziert und perfekt angepasst an Ihr Design.",
       
-      "process.step2.title": "Kunden-Eingabe",
-      "process.step2.description": "Kunden können ihr Fahrzeug schnell über das Kennzeichen oder durch Auswahl von Marke und Modell finden.",
+      "process.step2.title": "Fahrzeugdaten in Sekunden erfassen",
+      "process.step2.description": "Kunden geben einfach ihr Kennzeichen oder Fahrzeugdetails wie Marke und Modell ein – schnell, intuitiv und ohne Hürden.",
       
-      "process.step3.title": "Detaillierte Beurteilung",
-      "process.step3.description": "Kunden erhalten einen E-Mail-Link zur Eingabe detaillierter Informationen und zum Hochladen der Fahrzeugdokumentation.",
+      "process.step3.title": "Fahrzeugzustand und Fotos erfassen",
+      "process.step3.description": "Kunden dokumentieren den Fahrzeugzustand Schritt für Schritt und laden Fotos direkt hoch. So erhalten Sie eine präzise Grundlage für Ihre Bewertung – vollständig und zuverlässig.",
       
-      "process.step4.title": "ValueCheck Integration",
-      "process.step4.description": "Alle Fahrzeuginformationen werden automatisch in der ValueCheck App zur Überprüfung übertragen.",
+      "process.step4.title": "Automatisierte Überprüfung mit ValueCheck",
+      "process.step4.description": "Alle Fahrzeugdaten werden automatisch in die ValueCheck App *) übertragen – für eine effiziente, professionelle Kontrolle und Dokumentation.",
       
-      "process.step5.title": "Händler-Entscheidung",
-      "process.step5.description": "Prüfen Sie die Details, kontaktieren Sie den Kunden und machen Sie ein wettbewerbsfähiges Angebot.",
+      "process.step5.title": "Schnelle Angebote erstellen",
+      "process.step5.description": "Prüfen Sie die Details, kontaktieren Sie den Kunden und unterbreiten Sie ein wettbewerbsfähiges Angebot – klar, transparent und zuverlässig.",
       
-      "process.step6.title": "CARAUKTION Plattform",
-      "process.step6.description": "Listen Sie erworbene Fahrzeuge optional direkt auf CARAUKTION für den Händler-zu-Händler-Verkauf.",
+      "process.step6.title": "Vermarktung leicht gemacht",
+      "process.step6.description": "Erworbene Fahrzeuge können optional direkt auf der CARAUKTION-Plattform gelistet werden – für maximale Reichweite und Händler-zu-Händler-Verkauf..",
 
       // ValueCheck App Explainer
-      "process.valuecheck.title": "Was ist die ValueCheck App?",
-      "process.valuecheck.description": "Die ValueCheck App ist das zentrale Werkzeug für CARAUKTION-Händler zur Fahrzeugerfassung und Bestandsverwaltung. Sie ermöglicht eine professionelle Dokumentation von Fahrzeugen und deren nahtlose Integration in den CARAUKTION-Marktplatz.",
+      "process.valuecheck.title": "*) Was ist die ValueCheck App?",
+      "process.valuecheck.description": "Die ValueCheck App ist das zentrale Tool für CARAUKTION-Händler. Sie ermöglicht eine präzise Fahrzeugerfassung, Dokumentation und direkte Integration in den CARAUKTION-Marktplatz – effizient und zeitsparend.",
       
       // Contact
       "contact.title": "Bereit, Ihren Eintausch-Prozess zu transformieren?",
