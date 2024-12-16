@@ -97,7 +97,7 @@ export const ui = {
       "hero.cta.secondary": "En savoir plus",
       
       "features.title": "Plus d'efficacité, plus de prospects, plus de véhicules – Votre processus d'achat digital",
-      "features.description": "Transformez votre processus de reprise avec notre solution complète qui optimise les opérations et stimule la croissance.",
+      "features.description": "Intégration transparente, processus automatisés et plus de prospects : notre widget de reprise est la solution pour les concessionnaires modernes.",
       
       "features.integration.title": "Intégration transparente",
       "features.integration.description": "Intégrez notre widget de manière fluide sur votre site – pour une expérience client conforme à votre marque et sans accroc.",
@@ -113,7 +113,7 @@ export const ui = {
 
       // Process Flow
       "process.title": "Votre processus de reprise digital – Optimisé étape par étape",
-      "process.description": "De l'évaluation initiale à la vente finale, notre solution complète gère chaque étape du parcours de reprise.",
+      "process.description": "De l'évaluation en ligne à la commercialisation réussie : notre processus fluide rend l'acquisition de véhicules efficace, simple et conviviale.",
       
       "process.step1.title": "Intégration rapide sur votre site",
       "process.step1.description": "Intégrez notre widget de reprise avec une seule ligne de code – fluide, simple et parfaitement adapté à votre design.",
