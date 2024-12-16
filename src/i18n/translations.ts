@@ -25,6 +25,28 @@ export const ui = {
       
       "features.inventory.title": "Bestandswachstum",
       "features.inventory.description": "Erschließen Sie einen neuen Kanal für den Erwerb hochwertiger Gebrauchtwagen direkt über Ihre Website und erweitern Sie Ihre Bestandsoptionen.",
+
+      // Process Flow
+      "process.title": "Optimierter Eintausch-Prozess",
+      "process.description": "Von der ersten Bewertung bis zum endgültigen Verkauf - unsere umfassende Lösung begleitet jeden Schritt des Eintausch-Prozesses.",
+      
+      "process.step1.title": "Widget-Integration",
+      "process.step1.description": "Integrieren Sie unser Eintausch-Widget mit nur einer Zeile Code nahtlos in Ihre Händler-Website.",
+      
+      "process.step2.title": "Kunden-Bewertung",
+      "process.step2.description": "Kunden können ihr Fahrzeug schnell über das Kennzeichen oder durch Auswahl von Marke und Modell bewerten.",
+      
+      "process.step3.title": "Detaillierte Beurteilung",
+      "process.step3.description": "Kunden erhalten einen E-Mail-Link zur Eingabe detaillierter Informationen und zum Hochladen der Fahrzeugdokumentation.",
+      
+      "process.step4.title": "ValueCheck Integration",
+      "process.step4.description": "Alle Fahrzeuginformationen werden automatisch in Ihre ValueCheck App zur Überprüfung übertragen.",
+      
+      "process.step5.title": "Händler-Entscheidung",
+      "process.step5.description": "Prüfen Sie die Details, kontaktieren Sie den Kunden und machen Sie ein wettbewerbsfähiges Angebot.",
+      
+      "process.step6.title": "CARAUKTION Plattform",
+      "process.step6.description": "Listen Sie erworbene Fahrzeuge optional direkt auf CARAUKTION für den Händler-zu-Händler-Verkauf.",
       
       // Contact
       "contact.title": "Bereit, Ihren Eintausch-Prozess zu transformieren?",
@@ -75,6 +97,28 @@ export const ui = {
       
       "features.inventory.title": "Croissance de l'inventaire",
       "features.inventory.description": "Ouvrez un nouveau canal d'acquisition de véhicules d'occasion de qualité directement via votre site web.",
+
+      // Process Flow
+      "process.title": "Processus de reprise optimisé",
+      "process.description": "De l'évaluation initiale à la vente finale, notre solution complète gère chaque étape du parcours de reprise.",
+      
+      "process.step1.title": "Intégration du widget",
+      "process.step1.description": "Intégrez facilement notre widget de reprise sur votre site web avec une seule ligne de code.",
+      
+      "process.step2.title": "Évaluation client",
+      "process.step2.description": "Les clients peuvent rapidement évaluer leur voiture en utilisant leur plaque d'immatriculation ou en sélectionnant la marque et le modèle.",
+      
+      "process.step3.title": "Évaluation détaillée",
+      "process.step3.description": "Les clients reçoivent un lien par email pour fournir des informations détaillées et télécharger la documentation du véhicule.",
+      
+      "process.step4.title": "Intégration ValueCheck",
+      "process.step4.description": "Toutes les informations du véhicule sont automatiquement transférées vers votre App ValueCheck pour examen.",
+      
+      "process.step5.title": "Décision du concessionnaire",
+      "process.step5.description": "Examinez les détails, contactez le client et faites une offre compétitive.",
+      
+      "process.step6.title": "Plateforme CARAUKTION",
+      "process.step6.description": "Listez optionnellement les véhicules acquis directement sur CARAUKTION pour la vente entre concessionnaires.",
       
       "contact.title": "Prêt à transformer votre processus de reprise ?",
       "contact.description": "Contactez-nous aujourd'hui et découvrez comment notre widget de reprise peut optimiser les opérations de votre concession.",
@@ -123,6 +167,28 @@ export const ui = {
       
       "features.inventory.title": "Crescita dell'inventario",
       "features.inventory.description": "Apri un nuovo canale per l'acquisizione di veicoli usati di qualità direttamente attraverso il tuo sito web.",
+
+      // Process Flow
+      "process.title": "Processo di permuta ottimizzato",
+      "process.description": "Dalla valutazione iniziale alla vendita finale, la nostra soluzione completa gestisce ogni fase del percorso di permuta.",
+      
+      "process.step1.title": "Integrazione widget",
+      "process.step1.description": "Integra facilmente il nostro widget di permuta nel tuo sito web con una sola riga di codice.",
+      
+      "process.step2.title": "Valutazione cliente",
+      "process.step2.description": "I clienti possono valutare rapidamente la loro auto utilizzando la targa o selezionando marca e modello.",
+      
+      "process.step3.title": "Valutazione dettagliata",
+      "process.step3.description": "I clienti ricevono un link via email per fornire informazioni dettagliate e caricare la documentazione del veicolo.",
+      
+      "process.step4.title": "Integrazione ValueCheck",
+      "process.step4.description": "Tutte le informazioni del veicolo vengono automaticamente trasferite alla tua App ValueCheck per la revisione.",
+      
+      "process.step5.title": "Decisione del concessionario",
+      "process.step5.description": "Esamina i dettagli, contatta il cliente e fai un'offerta competitiva.",
+      
+      "process.step6.title": "Piattaforma CARAUKTION",
+      "process.step6.description": "Lista opzionalmente i veicoli acquisiti direttamente su CARAUKTION per la vendita tra concessionari.",
       
       "contact.title": "Pronto a trasformare il tuo processo di permuta?",
       "contact.description": "Contattaci oggi e scopri come il nostro widget di permuta può ottimizzare le operazioni della tua concessionaria.",
@@ -171,6 +237,28 @@ export const ui = {
       
       "features.inventory.title": "Inventory Growth",
       "features.inventory.description": "Open up a new channel for acquiring quality used vehicles directly through your website, expanding your inventory options.",
+
+      // Process Flow
+      "process.title": "Streamlined Trade-In Process",
+      "process.description": "From initial valuation to final sale, our comprehensive solution handles every step of the trade-in journey.",
+      
+      "process.step1.title": "Widget Integration",
+      "process.step1.description": "Seamlessly embed our trade-in widget into your dealer website with a single line of code.",
+      
+      "process.step2.title": "Customer Valuation",
+      "process.step2.description": "Customers can quickly value their car using their license plate or by selecting make and model.",
+      
+      "process.step3.title": "Detailed Assessment",
+      "process.step3.description": "Customers receive an email link to provide detailed information and upload vehicle documentation.",
+      
+      "process.step4.title": "ValueCheck Integration",
+      "process.step4.description": "All vehicle information is automatically transferred to your ValueCheck App for review.",
+      
+      "process.step5.title": "Dealer Decision",
+      "process.step5.description": "Review the details, contact the customer, and make a competitive offer.",
+      
+      "process.step6.title": "CARAUKTION Platform",
+      "process.step6.description": "Optionally list acquired vehicles directly on CARAUKTION for dealer-to-dealer sales.",
       
       "contact.title": "Ready to Transform Your Trade-In Process?",
       "contact.description": "Get in touch with us today and discover how our trade-in widget can streamline your dealership's operations and boost customer engagement.",
