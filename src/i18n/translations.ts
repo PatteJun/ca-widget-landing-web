@@ -72,7 +72,16 @@ export const ui = {
 
       // Footer
       "footer.imprint": "Impressum",
-      "footer.privacy": "Datenschutz"
+      "footer.privacy": "Datenschutz",
+
+      // Browser Mockup
+      "browser.url": "www.beispielgarage.ch",
+      "browser.mockup.image": "Beispiel für ein Fahrzeugbild",
+      "browser.mockup.tradein": "Eintausch",
+      "browser.mockup.form.title": "Erhalten Sie Ihren Eintauschwert",
+      "browser.mockup.form.year": "Baujahr",
+      "browser.mockup.form.mileage": "Kilometerstand",
+      "browser.mockup.form.submit": "Angebot erhalten",
   },
   
   fr: {
@@ -142,7 +151,16 @@ export const ui = {
 
       // Footer
       "footer.imprint": "Mentions légales",
-      "footer.privacy": "Protection des données"
+      "footer.privacy": "Protection des données",
+
+      // Browser Mockup
+      "browser.url": "www.beispielgarage.ch",
+      "browser.mockup.image": "Exemple d'image de véhicule",
+      "browser.mockup.tradein": "Reprise",
+      "browser.mockup.form.title": "Obtenez la valeur de reprise",
+      "browser.mockup.form.year": "Année",
+      "browser.mockup.form.mileage": "Kilométrage",
+      "browser.mockup.form.submit": "Obtenir l'offre",
   },
   
   it: {
@@ -212,7 +230,16 @@ export const ui = {
 
       // Footer
       "footer.imprint": "Note legali",
-      "footer.privacy": "Privacy"
+      "footer.privacy": "Privacy",
+
+      // Browser Mockup
+      "browser.url": "www.beispielgarage.ch",
+      "browser.mockup.image": "Esempio di immagine del veicolo",
+      "browser.mockup.tradein": "Permuta",
+      "browser.mockup.form.title": "Ottieni il valore della permuta",
+      "browser.mockup.form.year": "Anno",
+      "browser.mockup.form.mileage": "Chilometraggio",
+      "browser.mockup.form.submit": "Ottieni offerta",
   },
   
   en: {
@@ -282,6 +309,15 @@ export const ui = {
 
       // Footer
       "footer.imprint": "Imprint",
-      "footer.privacy": "Privacy"
+      "footer.privacy": "Privacy",
+
+      // Browser Mockup
+      "browser.url": "www.beispielgarage.ch",
+      "browser.mockup.image": "Example vehicle image",
+      "browser.mockup.tradein": "Trade-In",
+      "browser.mockup.form.title": "Get Your Trade-In Value",
+      "browser.mockup.form.year": "Year",
+      "browser.mockup.form.mileage": "Mileage",
+      "browser.mockup.form.submit": "Get Offer",
   }
 };
