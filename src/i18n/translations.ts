@@ -10,21 +10,21 @@ export const ui = {
       "hero.cta.secondary": "Mehr erfahren",
       
       // Features
-      "features.title": "Leistungsstarke Funktionen für moderne Händler",
-      "features.description": "Transformieren Sie Ihren Eintausch-Prozess mit unserer umfassenden Lösung, die den Betrieb optimiert und den Fahrzeugbestand erweitert.",
+      "features.title": "Mehr Effizienz, mehr Leads, mehr Fahrzeuge – Ihr digitaler Ankaufsprozess",
+      "features.description": "Nahtlose Integration, automatisierte Abläufe und mehr Leads: Unser Trade-In-Widget ist die Lösung für moderne Fahrzeughändler.",
       
       // Features List
       "features.integration.title": "Nahtlose Integration",
-      "features.integration.description": "Unser Widget passt sich perfekt an das Design Ihrer Website an und bietet ein natives Erlebnis, das die Identität und Benutzererfahrung Ihrer Marke bewahrt.",
+      "features.integration.description": "Integrieren Sie unser Widget nahtlos in Ihre Webseite – für ein markenkonformes und reibungsloses Kundenerlebnis.",
       
-      "features.process.title": "Optimierter Prozess",
-      "features.process.description": "Eintausch-Fahrzeuge werden automatisch in Ihre ValueCheck App eingetragen und können direkt auf der CARAUKTION-Plattform inseriert werden.",
+      "features.process.title": "Effizienter Ankaufsprozess",
+      "features.process.description": "Automatisierte Prozesse beschleunigen den Eintausch und ermöglichen den direkte Übertrag in Ihre Systeme und der CARAUKTION Plattform",
       
-      "features.leads.title": "Lead-Generierung",
-      "features.leads.description": "Schaffen Sie neue Möglichkeiten, indem Sie potenzielle Kunden früh in ihrer Autokauf-Journey durch unkomplizierte Eintausch-Bewertungen ansprechen.",
+      "features.leads.title": "Lead-Generierung leicht gemacht",
+      "features.leads.description": "Gewinnen Sie frühzeitig Kunden, indem Sie unkomplizierte Online-Bewertungen anbieten und neue Verkaufschancen schaffen.",
       
-      "features.inventory.title": "Bestandswachstum",
-      "features.inventory.description": "Erschliessen Sie einen neuen Kanal für den Erwerb hochwertiger Gebrauchtwagen direkt über Ihre Website und erweitern Sie Ihre Bestandsoptionen.",
+      "features.inventory.title": "Wachstum Ihres Fahrzeugbestands",
+      "features.inventory.description": "Erweitern Sie Ihren Gebrauchtwagenbestand durch gezielte Ankäufe direkt über Ihre Webseite – effizient und kundenfreundlich.",
 
       // Process Flow
       "process.title": "Optimierter Eintausch-Prozess",
