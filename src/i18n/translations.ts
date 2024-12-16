@@ -67,7 +67,7 @@ export const ui = {
       "thankyou.description": "Wir haben Ihre Informationen erhalten und werden Sie innerhalb der nächsten 24 Stunden kontaktieren, um eine persönliche Demonstration unseres Eintausch-Widgets zu vereinbaren.",
       "thankyou.back": "Zurück zur Startseite",
       "thankyou.contact": "Bei dringenden Fragen können Sie uns gerne unter",
-      "thankyou.email": "support@cardealerpro.com",
+      "thankyou.email": "info@carauktion.ch",
       "thankyou.contact.suffix": "kontaktieren.",
 
       // Footer
@@ -146,7 +146,7 @@ export const ui = {
       "thankyou.description": "Nous avons reçu vos informations et vous contacterons dans les prochaines 24 heures pour planifier une démonstration personnalisée de notre widget de reprise.",
       "thankyou.back": "Retour à l'accueil",
       "thankyou.contact": "Pour toute question urgente, n'hésitez pas à nous contacter à",
-      "thankyou.email": "support@cardealerpro.com",
+      "thankyou.email": "info@carauktion.ch",
       "thankyou.contact.suffix": ".",
 
       // Footer
@@ -225,7 +225,7 @@ export const ui = {
       "thankyou.description": "Abbiamo ricevuto le tue informazioni e ti contatteremo entro le prossime 24 ore per programmare una dimostrazione personalizzata del nostro widget di permuta.",
       "thankyou.back": "Torna alla home",
       "thankyou.contact": "Per domande urgenti, non esitare a contattarci a",
-      "thankyou.email": "support@cardealerpro.com",
+      "thankyou.email": "info@carauktion.ch",
       "thankyou.contact.suffix": ".",
 
       // Footer
@@ -304,7 +304,7 @@ export const ui = {
       "thankyou.description": "We've received your information and will contact you within the next 24 hours to schedule a personalized demonstration of our trade-in widget.",
       "thankyou.back": "Return to Homepage",
       "thankyou.contact": "In the meantime, if you have any urgent questions, feel free to contact us at",
-      "thankyou.email": "support@cardealerpro.com",
+      "thankyou.email": "info@carauktion.ch",
       "thankyou.contact.suffix": ".",
 
       // Footer
