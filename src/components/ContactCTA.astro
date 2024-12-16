@@ -3,6 +3,9 @@ import { getLangFromUrl, useTranslations } from '../i18n/ui';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+
+// Determine the correct thank you page URL based on language
+const thankYouUrl = lang === 'de' ? '/thank-you' : `/${lang}/thank-you`;
 ---
 
 <section id="contact" class="py-24 bg-gray-50">
@@ -21,7 +24,7 @@ const t = useTranslations(lang);
         name="contact"
         method="POST"
         data-netlify="true"
-        action={`/${lang === 'de' ? '' : lang}/thank-you`}
+        action={thankYouUrl}
         class="bg-white shadow-sm rounded-2xl p-8 space-y-6"
       >
         <input type="hidden" name="form-name" value="contact" />
