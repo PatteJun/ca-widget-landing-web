@@ -5,16 +5,18 @@ import Hero from '../components/Hero.astro';
 import Features from '../components/features/Features.astro';
 import ProcessFlow from '../components/process/ProcessFlow.astro';
 import ContactCTA from '../components/ContactCTA.astro';
+import Footer from '../components/Footer.astro';
 
 const lang = 'de';
 ---
 
 <Layout title="CarDealerPro - Moderne Websites für Autohändler" lang={lang}>
   <Navbar />
-  <main>
+  <main class="flex-1">
     <Hero />
     <Features />
     <ProcessFlow />
     <ContactCTA />
   </main>
+  <Footer />
 </Layout>

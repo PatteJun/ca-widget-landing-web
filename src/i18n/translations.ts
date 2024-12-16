@@ -1,55 +1,59 @@
 export const ui = {
-    de: {
-        // Navigation
-        "nav.getWidget": "Widget erhalten",
-        
-        // Hero
-        "hero.title": "Optimieren Sie Ihren Eintausch-Prozess",
-        "hero.description": "Steigern Sie die Lead-Generierung und vereinfachen Sie Eintausche mit unserem eingebetteten Widget. Nahtlose Integration in Ihr bestehendes Dealer-Management-System und sofortige Bewertung von Eintauschen für Ihre Kunden.",
-        "hero.cta.primary": "Widget erhalten",
-        "hero.cta.secondary": "Mehr erfahren",
-        
-        // Features
-        "features.title": "Leistungsstarke Funktionen für moderne Händler",
-        "features.description": "Transformieren Sie Ihren Eintausch-Prozess mit unserer umfassenden Lösung, die den Betrieb optimiert und das Geschäftswachstum fördert.",
-        
-        // Features List
-        "features.integration.title": "Nahtlose Integration",
-        "features.integration.description": "Unser Widget passt sich perfekt an das Design Ihrer Website an und bietet ein natives Erlebnis, das die Identität und Benutzererfahrung Ihrer Marke bewahrt.",
-        
-        "features.process.title": "Optimierter Prozess",
-        "features.process.description": "Eintausch-Fahrzeuge werden automatisch in Ihre ValueCheck App-Datenbank eingetragen und können direkt auf der CARAUKTION-Plattform inseriert werden.",
-        
-        "features.leads.title": "Lead-Generierung",
-        "features.leads.description": "Schaffen Sie neue Möglichkeiten, indem Sie potenzielle Kunden früh in ihrer Autokauf-Journey durch unkomplizierte Eintausch-Bewertungen ansprechen.",
-        
-        "features.inventory.title": "Bestandswachstum",
-        "features.inventory.description": "Erschließen Sie einen neuen Kanal für den Erwerb hochwertiger Gebrauchtwagen direkt über Ihre Website und erweitern Sie Ihre Bestandsoptionen.",
-        
-        // Contact
-        "contact.title": "Bereit, Ihren Eintausch-Prozess zu transformieren?",
-        "contact.description": "Kontaktieren Sie uns noch heute und erfahren Sie, wie unser Eintausch-Widget den Betrieb Ihres Autohauses optimieren und das Kundenengagement steigern kann.",
-        "contact.form.company": "Firmenname",
-        "contact.form.company.placeholder": "Name Ihres Autohauses",
-        "contact.form.contact": "Kontaktperson",
-        "contact.form.contact.placeholder": "Vollständiger Name",
-        "contact.form.email": "E-Mail-Adresse",
-        "contact.form.email.placeholder": "sie@beispiel.com",
-        "contact.form.phone": "Telefonnummer",
-        "contact.form.phone.placeholder": "+41 (000) 000-0000",
-        "contact.form.submit": "Informationen anfordern",
-        "contact.form.note": "Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
-    
-        // Thank You Page
-        "thankyou.title": "Vielen Dank für Ihr Interesse!",
-        "thankyou.description": "Wir haben Ihre Informationen erhalten und werden Sie innerhalb der nächsten 24 Stunden kontaktieren, um eine persönliche Demonstration unseres Eintausch-Widgets zu vereinbaren.",
-        "thankyou.back": "Zurück zur Startseite",
-        "thankyou.contact": "Bei dringenden Fragen können Sie uns gerne unter",
-        "thankyou.email": "support@cardealerpro.com",
-        "thankyou.contact.suffix": "kontaktieren."
-      },
-    
-    fr: {
+  de: {
+      // Navigation
+      "nav.getWidget": "Widget erhalten",
+      
+      // Hero
+      "hero.title": "Optimieren Sie Ihren Eintausch-Prozess",
+      "hero.description": "Steigern Sie die Lead-Generierung und vereinfachen Sie Eintausche mit unserem eingebetteten Widget. Nahtlose Integration in Ihr bestehendes Dealer-Management-System und sofortige Bewertung von Eintauschen für Ihre Kunden.",
+      "hero.cta.primary": "Widget erhalten",
+      "hero.cta.secondary": "Mehr erfahren",
+      
+      // Features
+      "features.title": "Leistungsstarke Funktionen für moderne Händler",
+      "features.description": "Transformieren Sie Ihren Eintausch-Prozess mit unserer umfassenden Lösung, die den Betrieb optimiert und das Geschäftswachstum fördert.",
+      
+      // Features List
+      "features.integration.title": "Nahtlose Integration",
+      "features.integration.description": "Unser Widget passt sich perfekt an das Design Ihrer Website an und bietet ein natives Erlebnis, das die Identität und Benutzererfahrung Ihrer Marke bewahrt.",
+      
+      "features.process.title": "Optimierter Prozess",
+      "features.process.description": "Eintausch-Fahrzeuge werden automatisch in Ihre ValueCheck App-Datenbank eingetragen und können direkt auf der CARAUKTION-Plattform inseriert werden.",
+      
+      "features.leads.title": "Lead-Generierung",
+      "features.leads.description": "Schaffen Sie neue Möglichkeiten, indem Sie potenzielle Kunden früh in ihrer Autokauf-Journey durch unkomplizierte Eintausch-Bewertungen ansprechen.",
+      
+      "features.inventory.title": "Bestandswachstum",
+      "features.inventory.description": "Erschließen Sie einen neuen Kanal für den Erwerb hochwertiger Gebrauchtwagen direkt über Ihre Website und erweitern Sie Ihre Bestandsoptionen.",
+      
+      // Contact
+      "contact.title": "Bereit, Ihren Eintausch-Prozess zu transformieren?",
+      "contact.description": "Kontaktieren Sie uns noch heute und erfahren Sie, wie unser Eintausch-Widget den Betrieb Ihres Autohauses optimieren und das Kundenengagement steigern kann.",
+      "contact.form.company": "Firmenname",
+      "contact.form.company.placeholder": "Name Ihres Autohauses",
+      "contact.form.contact": "Kontaktperson",
+      "contact.form.contact.placeholder": "Vollständiger Name",
+      "contact.form.email": "E-Mail-Adresse",
+      "contact.form.email.placeholder": "sie@beispiel.com",
+      "contact.form.phone": "Telefonnummer",
+      "contact.form.phone.placeholder": "+41 (000) 000-0000",
+      "contact.form.submit": "Informationen anfordern",
+      "contact.form.note": "Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+  
+      // Thank You Page
+      "thankyou.title": "Vielen Dank für Ihr Interesse!",
+      "thankyou.description": "Wir haben Ihre Informationen erhalten und werden Sie innerhalb der nächsten 24 Stunden kontaktieren, um eine persönliche Demonstration unseres Eintausch-Widgets zu vereinbaren.",
+      "thankyou.back": "Zurück zur Startseite",
+      "thankyou.contact": "Bei dringenden Fragen können Sie uns gerne unter",
+      "thankyou.email": "support@cardealerpro.com",
+      "thankyou.contact.suffix": "kontaktieren.",
+
+      // Footer
+      "footer.imprint": "Impressum",
+      "footer.privacy": "Datenschutz"
+  },
+  
+  fr: {
       "nav.getWidget": "Obtenir le Widget",
       
       "hero.title": "Optimisez votre processus de reprise",
@@ -84,15 +88,20 @@ export const ui = {
       "contact.form.phone.placeholder": "+41 (000) 000-0000",
       "contact.form.submit": "Demander des informations",
       "contact.form.note": "Nous vous contacterons dans les 24 heures.",
+
       "thankyou.title": "Merci de votre intérêt !",
       "thankyou.description": "Nous avons reçu vos informations et vous contacterons dans les prochaines 24 heures pour planifier une démonstration personnalisée de notre widget de reprise.",
       "thankyou.back": "Retour à l'accueil",
       "thankyou.contact": "Pour toute question urgente, n'hésitez pas à nous contacter à",
       "thankyou.email": "support@cardealerpro.com",
-      "thankyou.contact.suffix": "."
-    },
-    
-    it: {
+      "thankyou.contact.suffix": ".",
+
+      // Footer
+      "footer.imprint": "Mentions légales",
+      "footer.privacy": "Protection des données"
+  },
+  
+  it: {
       "nav.getWidget": "Ottieni il Widget",
       
       "hero.title": "Ottimizza il tuo processo di permuta",
@@ -127,15 +136,20 @@ export const ui = {
       "contact.form.phone.placeholder": "+41 (000) 000-0000",
       "contact.form.submit": "Richiedi informazioni",
       "contact.form.note": "Ti contatteremo entro 24 ore.",
+
       "thankyou.title": "Grazie per il tuo interesse!",
       "thankyou.description": "Abbiamo ricevuto le tue informazioni e ti contatteremo entro le prossime 24 ore per programmare una dimostrazione personalizzata del nostro widget di permuta.",
       "thankyou.back": "Torna alla home",
       "thankyou.contact": "Per domande urgenti, non esitare a contattarci a",
       "thankyou.email": "support@cardealerpro.com",
-      "thankyou.contact.suffix": "."
-    },
-    
-    en: {
+      "thankyou.contact.suffix": ".",
+
+      // Footer
+      "footer.imprint": "Note legali",
+      "footer.privacy": "Privacy"
+  },
+  
+  en: {
       "nav.getWidget": "Get Trade-In Widget",
       
       "hero.title": "Streamline Your Trade-In Process",
@@ -170,11 +184,16 @@ export const ui = {
       "contact.form.phone.placeholder": "+41 (000) 000-0000",
       "contact.form.submit": "Request Information",
       "contact.form.note": "We'll get back to you within 24 hours.",
+
       "thankyou.title": "Thank You for Your Interest!",
       "thankyou.description": "We've received your information and will contact you within the next 24 hours to schedule a personalized demonstration of our trade-in widget.",
       "thankyou.back": "Return to Homepage",
       "thankyou.contact": "In the meantime, if you have any urgent questions, feel free to contact us at",
       "thankyou.email": "support@cardealerpro.com",
-      "thankyou.contact.suffix": "."
-    }
-  };
+      "thankyou.contact.suffix": ".",
+
+      // Footer
+      "footer.imprint": "Imprint",
+      "footer.privacy": "Privacy"
+  }
+};

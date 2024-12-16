@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
 import { useTranslations } from '../../i18n/ui';
 
 const lang = 'it';
@@ -9,7 +10,7 @@ const t = useTranslations(lang);
 
 <Layout title={t('thankyou.title')} lang={lang}>
   <Navbar />
-  <main class="min-h-[80vh] flex items-center">
+  <main class="flex-1 flex items-center">
     <div class="max-w-7xl mx-auto px-6 lg:px-8 py-24">
       <div class="max-w-3xl mx-auto text-center">
         <div class="mb-8">
@@ -44,4 +45,5 @@ const t = useTranslations(lang);
       </div>
     </div>
   </main>
+  <Footer />
 </Layout>
