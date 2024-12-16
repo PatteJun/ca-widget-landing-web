@@ -90,12 +90,12 @@ export const ui = {
   
   fr: {
     // Navigation
-    "nav.getWidget": "Demander des informations",
+    "nav.getWidget": "Demander informations",
     
     // Hero
-    "hero.title": "Numérisez vos reprises de véhicules",
+    "hero.title": "Digitalisez vos reprises de véhicules",
     "hero.description": "Simplifiez le processus de reprise des véhicules d'occasion et d'échange. Avec le widget Trade-In de CARAUKTION, digitalisez votre reprise directement sur votre site web de concessionnaire – rapidement, intuitivement et de manière pérenne.",
-    "hero.cta.primary": "Demander des informations",
+    "hero.cta.primary": "Demander informations",
     "hero.cta.secondary": "En savoir plus",
     
     // Features
@@ -138,11 +138,11 @@ export const ui = {
     "process.step6.description": "Les véhicules acquis peuvent être directement listés sur la plateforme CARAUKTION – pour une visibilité maximale et une vente B2B efficace.",
     
     // ValueCheck App Explainer
-    "process.valuecheck.title": "*) Qu'est-ce que l'application ValueCheck ?",
+    "process.valuecheck.title": "*) Qu'est-ce que l'application ValueCheck?",
     "process.valuecheck.description": "L'application <a href='https://www.carauktion.ch/generalinfo/carauktion/valueCheck.html' target='_blank' rel='noopener noreferrer' class='text-primary hover:text-primary/90'>ValueCheck</a> est l'outil central pour les concessionnaires sur CARAUKTION. Elle permet une saisie précise des véhicules, une documentation complète et une intégration directe au marché CARAUKTION – efficacement et rapidement.",
     
     // Contact
-    "contact.title": "Prêt à digitaliser vos reprises de véhicules ?",
+    "contact.title": "Prêt à digitaliser vos reprises de véhicules?",
     "contact.description": "Contactez-nous dès aujourd'hui – intégrez notre widget Trade-In et simplifiez vos processus de reprise. Plus de leads, moins d'efforts, de meilleurs résultats.",
     "contact.form.company": "Nom de l'entreprise",
     "contact.form.company.placeholder": "Nom de votre société",
@@ -152,7 +152,7 @@ export const ui = {
     "contact.form.email.placeholder": "nom@votregarage.ch",
     "contact.form.phone": "Numéro de téléphone",
     "contact.form.phone.placeholder": "+41 (000) 000 0000",
-    "contact.form.submit": "Demander des informations",
+    "contact.form.submit": "Demander informations maintenant",
     "contact.form.note": "La demande est sans engagement et gratuite.",
     
     // Thank You Page
@@ -241,7 +241,7 @@ export const ui = {
     "contact.form.email.placeholder": "nome@iltuogarage.ch",
     "contact.form.phone": "Numero di telefono",
     "contact.form.phone.placeholder": "+41 (000) 000 0000",
-    "contact.form.submit": "Richiedi informazioni",
+    "contact.form.submit": "Richiedi informazioni adesso",
     "contact.form.note": "La richiesta è gratuita e senza impegno.",
     
     // Thank You Page
@@ -330,7 +330,7 @@ export const ui = {
     "contact.form.email.placeholder": "name@yourgarage.com",
     "contact.form.phone": "Phone Number",
     "contact.form.phone.placeholder": "+41 (000) 000 0000",
-    "contact.form.submit": "Request Information",
+    "contact.form.submit": "Request Information Now",
     "contact.form.note": "The inquiry is free of charge and non-binding.",
     
     // Thank You Page
