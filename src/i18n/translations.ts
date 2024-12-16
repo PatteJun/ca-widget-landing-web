@@ -90,12 +90,12 @@ export const ui = {
   
   fr: {
     // Navigation
-    "nav.getWidget": "Demander des informations",
+    "nav.getWidget": "Demander informations",
     
     // Hero
     "hero.title": "Numérisez vos reprises de véhicules",
     "hero.description": "Simplifiez le processus de reprise des véhicules d'occasion et d'échange. Avec le widget Trade-In de CARAUKTION, digitalisez votre reprise directement sur votre site web de concessionnaire – rapidement, intuitivement et de manière pérenne.",
-    "hero.cta.primary": "Demander des informations",
+    "hero.cta.primary": "Demander informations",
     "hero.cta.secondary": "En savoir plus",
     
     // Features
@@ -152,7 +152,7 @@ export const ui = {
     "contact.form.email.placeholder": "nom@votregarage.ch",
     "contact.form.phone": "Numéro de téléphone",
     "contact.form.phone.placeholder": "+41 (000) 000 0000",
-    "contact.form.submit": "Demander des informations",
+    "contact.form.submit": "Demander informations maintenant",
     "contact.form.note": "La demande est sans engagement et gratuite.",
     
     // Thank You Page
