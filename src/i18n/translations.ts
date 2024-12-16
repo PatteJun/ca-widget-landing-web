@@ -15,7 +15,7 @@ export const ui = {
       
       // Features List
       "features.integration.title": "Nahtlose Integration",
-      "features.integration.description": "Integrieren Sie unser Widget nahtlos in Ihre Webseite – für ein markenkonformes und reibungsloses Kundenerlebnis.",
+      "features.integration.description": "Unser Widget ist in Minuten integriert und bietet Ihren Kunden einen reibungslosen Einstieg in den digitalen Ankaufsprozess – direkt auf Ihrer Webseite.",
       
       "features.process.title": "Effizienter Ankaufsprozess",
       "features.process.description": "Automatisierte Prozesse beschleunigen den Eintausch und ermöglichen den direkte Übertrag in Ihre Systeme und der CARAUKTION Plattform",
@@ -36,8 +36,8 @@ export const ui = {
       "process.step2.title": "Fahrzeugdaten in Sekunden erfassen",
       "process.step2.description": "Kunden geben einfach ihr Kennzeichen oder Fahrzeugdetails wie Marke und Modell ein – schnell, intuitiv und ohne Hürden.",
       
-      "process.step3.title": "Fahrzeugzustand und Fotos erfassen",
-      "process.step3.description": "Kunden dokumentieren den Fahrzeugzustand Schritt für Schritt und laden Fotos direkt hoch. So erhalten Sie eine präzise Grundlage für Ihre Bewertung – vollständig und zuverlässig.",
+      "process.step3.title": "Präzise Fahrzeugbewertung",
+      "process.step3.description": "Kunden erfassen Zustand und Fotos in wenigen Minuten – Sie erhalten alle Details für ein verlässliches Angebot.",
       
       "process.step4.title": "Automatisierte Überprüfung mit ValueCheck",
       "process.step4.description": "Alle Fahrzeugdaten werden automatisch in die ValueCheck App *) übertragen – für eine effiziente, professionelle Kontrolle und Dokumentation.",
@@ -53,17 +53,17 @@ export const ui = {
       "process.valuecheck.description": "Die ValueCheck App ist das zentrale Tool für CARAUKTION-Händler. Sie ermöglicht eine präzise Fahrzeugerfassung, Dokumentation und direkte Integration in den CARAUKTION-Marktplatz – effizient und zeitsparend.",
       
       // Contact
-      "contact.title": "Bereit, Ihren Eintausch-Prozess zu transformieren?",
-      "contact.description": "Kontaktieren Sie uns noch heute und erfahren Sie, wie unser Eintausch-Widget den Betrieb Ihres Autohauses optimieren und das Kundenengagement steigern kann.",
+      "contact.title": "Bereit, Ihren Fahrzeug-Ankauf zu digitalisieren?",
+      "contact.description": "Kontaktieren Sie uns noch heute – integrieren Sie unser Trade-In-Widget und vereinfachen Sie Ihren Eintausch-Prozess. Mehr Leads, weniger Aufwand, bessere Ergebnisse.",
       "contact.form.company": "Firmenname",
-      "contact.form.company.placeholder": "Name Ihres Autohauses",
+      "contact.form.company.placeholder": "Name Ihres Betriebes",
       "contact.form.contact": "Kontaktperson",
       "contact.form.contact.placeholder": "Vollständiger Name",
       "contact.form.email": "E-Mail-Adresse",
-      "contact.form.email.placeholder": "sie@beispiel.com",
+      "contact.form.email.placeholder": "name@beispielgarage.ch",
       "contact.form.phone": "Telefonnummer",
-      "contact.form.phone.placeholder": "+41 (000) 000-0000",
-      "contact.form.submit": "Informationen anfordern",
+      "contact.form.phone.placeholder": "+41 (000) 000 0000",
+      "contact.form.submit": "Jetzt Informationen anfordern",
       "contact.form.note": "Die Anfrage ist unverbindlich und kostenlos.",
   
       // Thank You Page
