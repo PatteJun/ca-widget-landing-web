@@ -4,7 +4,7 @@ export const ui = {
       "nav.getWidget": "Informationen anfordern",
       
       // Hero
-      "hero.title": "Digitalisieren Sie Ihren Fahrzeug-Ankauf – Einfach, Schnell, Effizient",
+      "hero.title": "Digitalisieren Sie Ihren Fahrzeug-Ankauf",
       "hero.description": "Vereinfachen Sie den Ankaufsprozess von Gebraucht- und Eintauschfahrzeugen. Mit dem CARAUKTION Trade-In-Widget digitalisieren Sie Ihren Ankauf direkt auf Ihrer Händler-Webseite – schnell, kundenfreundlich und zukunftssicher.",
       "hero.cta.primary": "Informationen anfordern",
       "hero.cta.secondary": "Mehr erfahren",
@@ -91,7 +91,7 @@ export const ui = {
   fr: {
       "nav.getWidget": "Obtenir le Widget",
       
-      "hero.title": "Digitalisez votre acquisition de véhicules – Simple, Rapide, Efficace",
+      "hero.title": "Digitalisez votre acquisition de véhicules",
       "hero.description": "Simplifiez le processus d'achat de véhicules d'occasion et de reprise. Avec le widget de reprise CARAUKTION, digitalisez vos acquisitions directement sur votre site de concessionnaire – rapide, convivial et tourné vers l'avenir.",
       "hero.cta.primary": "Demander des informations",
       "hero.cta.secondary": "En savoir plus",
