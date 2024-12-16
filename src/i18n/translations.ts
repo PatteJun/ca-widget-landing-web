@@ -330,7 +330,7 @@ export const ui = {
     "contact.form.email.placeholder": "name@yourgarage.com",
     "contact.form.phone": "Phone Number",
     "contact.form.phone.placeholder": "+41 (000) 000 0000",
-    "contact.form.submit": "Request Information",
+    "contact.form.submit": "Request Information Now",
     "contact.form.note": "The inquiry is free of charge and non-binding.",
     
     // Thank You Page
