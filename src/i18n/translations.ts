@@ -39,8 +39,8 @@ export const ui = {
       "process.step3.title": "Präzise Fahrzeugbewertung",
       "process.step3.description": "Kunden erfassen Zustand und Fotos in wenigen Minuten – Sie erhalten alle Details für ein verlässliches Angebot.",
       
-      "process.step4.title": "Automatisierte Überprüfung mit ValueCheck",
-      "process.step4.description": "Alle Fahrzeugdaten werden automatisch in die ValueCheck App *) übertragen – für eine effiziente, professionelle Kontrolle und Dokumentation.",
+      "process.step4.title": "Zentrale Datenverarbeitung mit ValueCheck",
+      "process.step4.description": "Alle Fahrzeugdaten werden automatisch an die ValueCheck App *) übertragen. So ermöglichen Sie eine nahtlose Weiterverarbeitung, professionelle Kontrolle und effiziente Dokumentation – alles zentral an einem Ort.",
       
       "process.step5.title": "Schnelle Angebote erstellen",
       "process.step5.description": "Prüfen Sie die Details, kontaktieren Sie den Kunden und unterbreiten Sie ein wettbewerbsfähiges Angebot – klar, transparent und zuverlässig.",
